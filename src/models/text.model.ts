@@ -8,10 +8,10 @@ import { TokenInfoType } from '../config/types';
  */
 export const startText = (user: UserType) => {
   return (
-    `🎉 @${user?.username}, <b>Welcome to Smart Solana Trading Bot</b>\n\n` +
+    `🎉 @${user?.username}, <b>Welcome to Solana Raydium Trading Bot</b>\n\n` +
     `👍 The Unique Solana Trading Bot.\n` +
     `💨 Snipe asap, 💨 Trade as reasonable as possible\n\n` +
-    `🔴 This bot only <b>monitor</b>s new token launch on Raydium dex. To use the other functionality please <b>contact</b> to @QualityAtTheFirst 🔴`
+    `🔴 This bot only <b>monitor</b>s new token launch on Raydium dex. 🔴`
   );
 };
 
@@ -37,7 +37,7 @@ export const newUserText = (user: UserType) => {
  * The text when help command is inputed
  */
 export const helpText =
-  `🚀 <b>Smart 🦊 Solana Trading Bot</b> 🚀 \n\n` +
+  `🚀 <b>Solana Raydium Trading Bot</b> 🚀 \n\n` +
   `Supercharge your trading with our cutting-edge bot that tracks and capitalizes on Serum migrations from Pump.fun! 💎\n\n` +
   `Key Features:\n` +
   `✅ Lightning-fast transaction tracking\n` +
@@ -61,7 +61,7 @@ export const swapSuccessText = (tokenInfo: any, signature: string, solAmount: nu
 };
 
 export const settingText =
-  `🛠️ <b>Smart 🦊 Trading Bot Settings</b>\n\n` +
+  `🛠️ <b>Solana Raydium Trading Bot Settings</b>\n\n` +
   `Welcome to the settings page for your Solana Trading Bot!\n\n` +
   `1. <b>Amount</b>: \n` +
   `   - Specify the amount of SOL (or tokens) you wish to trade.\n` +

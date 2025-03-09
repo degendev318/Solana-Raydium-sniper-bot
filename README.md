@@ -1,4 +1,4 @@
-# Smart 🦊 Solana Trading Bot 🎯
+# 🦊 Raydium Solana Trading Bot 🎯
 
 ## Features
 
@@ -92,14 +92,14 @@ yarn@v1.22.10 or higher
 
 7. Now search for the bot name `testing_xyz` and send a message to the bot contact.
 
-From your command line, first clone EdgeStrike:
+From your command line, first clone :
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/jakeenan14/EdgeStrike
+$ git clone https://github.com/
 
 # Move into the repository
-$ cd EdgeStrike
+$ cd 
 
 # Remove the current origin repository
 $ git remote remove origin
